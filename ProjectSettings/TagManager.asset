@@ -3,14 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - ground
-<<<<<<< HEAD
-  - LeftZone
-  - RightZone
-=======
-  - Superjump
->>>>>>> origin/Obstacle
+  tags: []
   layers:
   - Default
   - TransparentFX
