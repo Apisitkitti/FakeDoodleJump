@@ -9,6 +9,7 @@ public class character : MonoBehaviour
     private Rigidbody2D rb;
     
     [SerializeField] float jumpforce = 100f;
+    public float jumpboost = 2f;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -22,7 +23,7 @@ public class character : MonoBehaviour
         }
         if(other.gameObject.tag == "Superjump")
         { 
-            rb.AddForce(Vector2.up*jumpforce*2f);
+            rb.AddForce(Vector2.up*jumpforce*jumpboost);
         }
     }
 
