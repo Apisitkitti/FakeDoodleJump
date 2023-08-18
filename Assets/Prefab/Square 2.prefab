@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 4150252991281600904}
   - component: {fileID: -9043187401281718090}
   m_Layer: 0
-  m_Name: Square
-  m_TagString: ground
+  m_Name: Square 2
+  m_TagString: Superjump
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -75,7 +75,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.2971698, g: 1, b: 0.86258775, a: 1}
+  m_Color: {r: 0.9150943, g: 0.10791205, b: 0.18516345, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0

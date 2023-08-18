@@ -474,6 +474,7 @@ GameObject:
   m_Component:
   - component: {fileID: 729598323}
   - component: {fileID: 729598322}
+  - component: {fileID: 729598324}
   m_Layer: 0
   m_Name: Platform_gen
   m_TagString: Untagged
@@ -495,7 +496,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   platformPrefab: {fileID: 8927438450143971368, guid: 4c95282dce64f8245880f72732858ca0, type: 3}
   numberOfPlatforms: 20
-  minY: 1
+  minY: 2
   maxY: 2
   platformXRange: 6
 --- !u!4 &729598323
@@ -513,6 +514,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &729598324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 729598321}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72e13ac2598e3754c8ec6d45c748cebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  platformPrefab: {fileID: 8927438450143971368, guid: 712f46d3e3972004ba8110a95cb57eb6, type: 3}
+  numberOfPlatforms: 2
+  minY: 14
+  maxY: 14
+  platformXRange: 5
 --- !u!1 &882455509
 GameObject:
   m_ObjectHideFlags: 0

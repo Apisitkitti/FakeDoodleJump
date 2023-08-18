@@ -20,6 +20,10 @@ public class character : MonoBehaviour
         { 
             rb.AddForce(Vector2.up*jumpforce);
         }
+        if(other.gameObject.tag == "Superjump")
+        { 
+            rb.AddForce(Vector2.up*jumpforce*2f);
+        }
     }
 
     

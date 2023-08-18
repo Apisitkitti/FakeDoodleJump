@@ -4,7 +4,7 @@ using System.Data.Common;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class PlatformGenerator : MonoBehaviour
+public class SuperjumpGenerator : MonoBehaviour
 {
     public GameObject platformPrefab;
     public int numberOfPlatforms = 20;
