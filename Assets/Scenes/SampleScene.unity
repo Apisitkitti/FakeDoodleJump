@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 48679900}
   - component: {fileID: 48679899}
   - component: {fileID: 48679898}
+  - component: {fileID: 48679903}
   - component: {fileID: 48679901}
   - component: {fileID: 48679902}
   m_Layer: 0
@@ -260,6 +261,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   jumpforce: 400
   jumpboost: 1.5
+--- !u!114 &48679903
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 48679896}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4882d3a4f49865542941a02b6db10dbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneToLoad: 
 --- !u!1 &57217456
 GameObject:
   m_ObjectHideFlags: 0
