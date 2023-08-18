@@ -5,8 +5,12 @@ TagManager:
   serializedVersion: 2
   tags:
   - ground
+<<<<<<< HEAD
   - LeftZone
   - RightZone
+=======
+  - Superjump
+>>>>>>> origin/Obstacle
   layers:
   - Default
   - TransparentFX
