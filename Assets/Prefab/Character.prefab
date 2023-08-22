@@ -341,4 +341,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   jumpforce: 400
-  jumpboost: 1000
+  jumpboost: 1.5
